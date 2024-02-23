@@ -1,0 +1,9 @@
+[submodule "oscal"]
+	path = nist/oscal
+	url = git@github.com:usnistgov/OSCAL.git
+[submodule "oscal-tools"]
+	path = nist/oscal-tools
+	url = git@github.com:usnistgov/oscal-tools.git
+[submodule "oscal-content"]
+	path = nist/oscal-content
+	url = https://github.com/usnistgov/oscal-content

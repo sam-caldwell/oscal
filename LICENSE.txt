@@ -1,0 +1,4 @@
+Public Domain
+
+This project is public domain, derived from the NIST github for education purposes.
+Do not use this with any expectations.  This repository is for my experimentation only.
