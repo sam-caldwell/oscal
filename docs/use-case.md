@@ -29,12 +29,14 @@ standards:
   - nist: "NIST SP-800-53 rev. 5"
   - pci: "PCI-DSS 4.0"
 mappings:
-  - nist: "AC-1"
-    pci: "1.1.1"
+  - controls:
+      - nist: "AC-1"
+      - pci: "1.1.1"
     relationship: "equivalent"
     rationale: "Both controls address access control for systems"
-  - nist: "IA-2"
-    pci: "3.2.1"
+  - controls:
+      nist: "IA-2"
+      pci: "3.2.1"
     relationship: "related"
     preference: "nist"
     rationale: "IA-2 relates to identification and authentication, which is covered by 3.2.1 in PCI-DSS"
